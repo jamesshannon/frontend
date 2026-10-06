@@ -48,7 +48,8 @@ The list has two row backgrounds.
 
 With no cursor yet, <kbd>↓</kbd> and <kbd>Enter</kbd> start from the `value`
 row, or from the top match while searching. With one item in the list,
-<kbd>Enter</kbd> picks it whether or not the cursor has moved.
+<kbd>Enter</kbd> picks it whether or not the cursor has moved, unless that item
+is disabled.
 
 ## Implementation
 
